@@ -1,0 +1,246 @@
+body {
+    margin: 0px;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+
+.main-container {
+    margin: auto;
+    max-width: 1250px;
+}
+
+
+.kerala-logo {
+    background-image: url(images/kerala-logo.jpg);
+    height: 9rem;
+    width: 11rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.kerala-motto {
+    background-image: url(images/title-banner.jpg);
+    height: 9rem;
+    width: 36rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navigation-bar {
+    background-color: rgb(3, 55, 106);
+    height: 2.5rem;
+    transform: scale(1, 1.5);
+    /* align-items: center; */
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.navigation-bar-row {
+    justify-content: space-around;
+}
+
+.white-space {
+    padding-left: 1rem;
+}
+
+.main-banner {
+    background-image: url(images/website-banner.jpg);
+    height: 19rem;
+    width: 100%;
+    background-size: 100% 18rem;
+    background-repeat: no-repeat
+}
+
+.fishing-banner {
+    background-image: url(images/sub-banner.jpg);
+    height: 18rem;
+    width: 18rem;
+    background-size: 100%;
+    margin-right: 4rem;
+    background-repeat: no-repeat;
+}
+
+.main-description {
+    width: 37rem;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.list-nav {
+    background-color: rgba(51, 153, 102, 255);
+    height: 7.7rem;
+    width: 18rem;
+    padding-left: 1rem;
+    transform: scale(1, 1.5);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-top: 1.9rem;
+    margin-left: 4rem;
+}
+
+
+.bottom-banner {
+    background-image: url(images/bottom-banner.jpg);
+    height: 21rem;
+    /* width: 56rem; */
+    max-width: 56rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bottom-nav-heading {
+    color: rgb(3, 46, 117);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.bottom-nav-links {
+    color: gray;
+}
+
+.bottom-nav-container {
+    background-color: rgb(242, 239, 239);
+}
+
+.bottom-logo-container {
+    height: 4rem;
+    align-items: end;
+}
+
+.bottom-logo-container a {
+    padding-left: 1rem;
+}
+
+.footer-info {
+    color: gray;
+}
+
+
+
+@media screen and (max-width: 1275px) {
+    .main-container {
+        width: 70rem;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .white-space {
+        display: none;
+    }
+
+    .navigation-bar-row {
+        justify-content: left;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+
+    .navigation-bar {
+        height: 7.5rem;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .navigation-bar {
+        height: 10.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .fishing-banner {
+        height: 41rem;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main-description {
+        width: 100%;
+    }
+
+    .list-nav {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 2rem;
+    }
+
+    .bottom-banner {
+        height: 17rem;
+    }
+}
+
+
+@media screen and (max-width: 615px){
+    .bottom-banner {
+        height: 14rem;
+    }
+
+    .fishing-banner {
+        height: 37rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .kerala-motto {
+        background-image: url(images/title-banner.jpg);
+        height: 9rem;
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .fishing-banner {
+        height: 34rem;
+    }
+
+    .bottom-banner {
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .fishing-banner {
+        height: 29rem;
+    }
+
+    .bottom-banner {
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 436px){
+    .fishing-banner {
+        height: 25rem;
+    }
+}
+
+@media screen and (max-width: 384px){
+    .fishing-banner {
+        height: 21rem;
+    }
+
+    .bottom-banner {
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 326px){
+    .fishing-banner {
+        height: 18rem;
+    }
+
+    .bottom-banner {
+        height: 7rem;
+    }
+}
